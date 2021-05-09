@@ -92,10 +92,14 @@ header ul{
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
+  /*-webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 1.5s;*/
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
 }
 
 @-webkit-keyframes fade {
