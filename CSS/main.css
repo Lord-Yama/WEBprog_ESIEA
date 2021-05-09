@@ -1,19 +1,25 @@
 header ul{
-  display: flex;
+  display: grid;
   list-style-type: none;
-  justify-content: space-between;
-  margin-right: 40px;
+  justify-content: center;
+  grid-template-columns: 50px 750px 75px 75px 75px 150px 75px;
+  margin-bottom: 40px;
 }
 
 header ul li{
   font-size: 20px;
-
 }
 
 .title{
   font-size: 30px;
 }
 
+.social{
+  height: 30px;
+  width: 30px;
+}
+
+/*---SLIDER---*/
 * {box-sizing:border-box}
 
 .img{
@@ -24,7 +30,7 @@ header ul li{
 }
 
 .slideshow-container {
-  max-width: 1500px;
+  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -58,7 +64,7 @@ header ul li{
   color: white;
 }
 
-.text {
+.text_slide {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
@@ -73,6 +79,10 @@ header ul li{
   font-size: 12px;
   padding: 8px 12px;
   top: 0;
+  text-align: center;
+}
+
+.slider_dot{
   text-align: center;
 }
 
@@ -111,3 +121,92 @@ header ul li{
   80%{opacity: 1}
   100% {opacity: 0}
 }
+
+/*---SLIDER_END---*/
+/*---FIRST_DESCRITPION---*/
+.first_description_container{
+  display: grid;
+  justify-content: center;
+  margin-top: 100px;
+  column-gap: 50px;
+  row-gap: 15px;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 75px 220px 75px;
+}
+
+.first{
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.two{
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.three{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.four{
+  height: 400px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+/*---END_FIRST_DESCRITPION---*/
+/*---FOUR_IMAGES_DESCRITPION---*/
+.four_images_container{
+  margin-top: 150px;
+}
+
+.four_images_list{
+  list-style-type: none;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 750px 75px 75px 75px 75px;
+  grid-template-rows: 50px;
+  padding: 0;
+}
+
+.four_images_list li{
+  margin-right: 75px;
+  font-size: 20px;
+}
+
+.four_images{
+  text-align: center;
+}
+
+.four_images_images{
+  display: inline-block;
+  margin-right: 15px;
+  height: 300px;
+  width: 250px;
+}
+
+.four_images_title{
+  font-size: 20px;
+}
+
+.four_images_dot{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: rgb(214, 214, 67);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.four_images_choices{
+  color: rgb(138, 135, 135);
+}
+/*---END_FOUR_IMAGES_DESCRITPION---*/
