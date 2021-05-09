@@ -23,7 +23,7 @@ header ul li{
 * {box-sizing:border-box}
 
 .img{
-  height: 400px;
+  height: 500px;
   display: flex;
   margin-right: auto;
   margin-left: auto;
@@ -36,6 +36,7 @@ header ul li{
 }
 
 .mySlides {
+  margin-top: 100px;
   display: none;
 }
 
@@ -129,37 +130,57 @@ header ul li{
   justify-content: center;
   margin-top: 100px;
   column-gap: 50px;
-  row-gap: 15px;
-  grid-template-columns: 400px 400px;
-  grid-template-rows: 75px 220px 75px;
+  row-gap: 5px;
+  grid-template-columns: 400px 500px;
+  grid-template-rows:25px 50px 340px 70px;
 }
 
-.first{
+.one{
+  margin-top: 0px;
+  font-size: 20px;
+  color: rgb(214, 214, 67);
   grid-column-start: 1;
   grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
 }
 
 .two{
+  margin-top: 0px;
   grid-column-start: 1;
   grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
 }
 
 .three{
   grid-column-start: 1;
   grid-column-end: 1;
-  grid-row-start: 3;
-  grid-row-end: 3;
 }
 
 .four{
-  height: 400px;
-  width: 300px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+.five{
+  height: 500px;
+  width: 400px;
   margin-left: auto;
   margin-right: auto;
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-end: 3;
+}
+
+.first_description_container span{
+  margin-top: 75px;
+  height: 400px;
+  width: 300px;
+  background-color: rgb(201, 201, 201);
 }
 /*---END_FIRST_DESCRITPION---*/
 /*---FOUR_IMAGES_DESCRITPION---*/
@@ -182,14 +203,18 @@ header ul li{
 }
 
 .four_images{
-  text-align: center;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 425px 425px 425px 425px;
+  padding: 0;
+  margin: 0;
 }
 
 .four_images_images{
-  display: inline-block;
-  margin-right: 15px;
-  height: 300px;
-  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 400px;
 }
 
 .four_images_title{
@@ -200,13 +225,13 @@ header ul li{
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 5px;
+  margin-top: 5px;
   background-color: rgb(214, 214, 67);
   border-radius: 50%;
   display: inline-block;
 }
 
 .four_images_choices{
-  color: rgb(138, 135, 135);
+  color: rgb(158, 158, 158);
 }
 /*---END_FOUR_IMAGES_DESCRITPION---*/
