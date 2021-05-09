@@ -9,9 +9,9 @@ function plusSlides(n){
    showSlides(slideIndex += 1); 
   }
   if (n == -1){
-    myTimer = setInterval(function(){plusSlides(n + 2)}, 4000);
+    myTimer = setInterval(function(){plusSlides(n + 2)}, 6000);
   } else {
-    myTimer = setInterval(function(){plusSlides(n + 1)}, 4000);
+    myTimer = setInterval(function(){plusSlides(n + 1)}, 6000);
   }
 }
 
@@ -33,5 +33,5 @@ function showSlides(n){
 
 window.addEventListener("load",function() {
   showSlides(slideIndex);
-  myTimer = setInterval(function(){plusSlides(1)}, 4000);
+  myTimer = setInterval(function(){plusSlides(1)}, 6000);
 })
