@@ -19,6 +19,22 @@ header ul li{
   width: 30px;
 }
 
+footer{
+  margin-top: 150px;
+}
+
+footer ul{
+  display: grid;
+  list-style-type: none;
+  justify-content: center;
+  grid-template-columns: 50px 750px 75px 75px 75px 150px 75px;
+  margin-bottom: 40px;
+}
+
+footer ul li{
+  font-size: 20px;
+}
+
 /*---SLIDER---*/
 * {box-sizing:border-box}
 
