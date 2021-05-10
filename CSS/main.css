@@ -205,7 +205,7 @@ header ul li{
 .four_images{
   display: grid;
   justify-content: center;
-  grid-template-columns: 425px 425px 425px 425px;
+  grid-template-columns: 350px 350px 350px 350px;
   padding: 0;
   margin: 0;
 }
@@ -213,8 +213,8 @@ header ul li{
 .four_images_images{
   margin-left: auto;
   margin-right: auto;
-  height: 500px;
-  width: 400px;
+  height: 400px;
+  width: 300px;
 }
 
 .four_images_title{
