@@ -141,7 +141,7 @@ header ul li{
   column-gap: 50px;
   row-gap: 5px;
   grid-template-columns: 400px 500px;
-  grid-template-rows:25px 50px 340px 70px;
+  grid-template-rows:25px 60px 350px 70px;
 }
 
 .one{
@@ -186,7 +186,7 @@ header ul li{
 }
 
 .first_description_container span{
-  margin-top: 75px;
+  margin-top: 60px;
   height: 400px;
   width: 300px;
   background-color: rgb(201, 201, 201);
@@ -244,6 +244,31 @@ header ul li{
   color: rgb(158, 158, 158);
 }
 /*---END_FOUR_IMAGES_DESCRITPION---*/
+/*---LATEST_NEWS---*/
+
+.latest_news{
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+.latest_news ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.latest_news .latest_news_images{
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.latest_news_images_img{
+  margin-right: 75px;
+  width: 300px;
+  height: 300px;
+}
+
+/*---END_LATEST_NEWS---*/
 
 /*---FOOTER---*/
 footer{
