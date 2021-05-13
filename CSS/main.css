@@ -244,6 +244,14 @@ header ul li{
   color: rgb(158, 158, 158);
 }
 /*---END_FOUR_IMAGES_DESCRITPION---*/
+
+/*---FROM_GREAT_OUR_CLIENTS---*/
+.background{
+  background-color: grey;
+  width: 1000px;
+  height: 800px;
+}
+/*---END_FROM_GREAT_OUR_CLIENTS---*/
 /*---LATEST_NEWS---*/
 
 .latest_news{
@@ -267,7 +275,6 @@ header ul li{
   width: 300px;
   height: 300px;
 }
-
 /*---END_LATEST_NEWS---*/
 
 /*---FOOTER---*/
