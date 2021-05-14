@@ -30,6 +30,16 @@ header ul li{
   width: 25px;
 }
 
+@media screen and (max-width: 1100px){
+  header ul{
+    display: grid;
+    list-style-type: none;
+    justify-content: center;
+    grid-template-columns: 50px 400px 50px 50px 50px 150px 85px 75px;
+    margin-bottom: 40px;
+  }
+}
+
 /*---SLIDER---*/
 * {box-sizing:border-box}
 
@@ -142,7 +152,7 @@ header ul li{
   margin-top: 100px;
   column-gap: 50px;
   row-gap: 5px;
-  grid-template-columns: 400px 500px;
+  grid-template-columns: 400px 400px;
   grid-template-rows:25px 60px 350px 70px;
 }
 
@@ -294,6 +304,29 @@ header ul li{
 .four_images_choices{
   color: rgb(158, 158, 158);
 }
+
+@media screen and (max-width: 1650px){
+  .four_images{
+    display: grid;
+    justify-content: center;
+    row-gap: 30px;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px 400px;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .four_images_list{
+    list-style-type: none;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 500px 75px 75px 75px 75px;
+    grid-template-rows: 50px;
+    padding: 0;
+  }
+}
 /*---END_FOUR_IMAGES_DESCRITPION---*/
 
 /*---FROM_GREAT_OUR_CLIENTS---*/
@@ -307,9 +340,10 @@ header ul li{
   margin: 0 auto;
   width: 90%;
   height: 700px;
+  display: center;
 }
 
-.clients_right{
+.clients_left{
   background-color: rgb(241, 241, 241);
   width: 25%;
   height: 225px;
@@ -318,7 +352,7 @@ header ul li{
   left: 20%;
 }
 
-.span_right{
+.span_left{
   height: 75px;
   width: 75px;
   border-radius: 50%;
@@ -329,19 +363,19 @@ header ul li{
   display: inline-block;
 }
 
-.clients_right > h4{
+.clients_left > h4{
   position: absolute;
   top: 20%;
   left: 5%;
 }
-.clients_right > p{
+.clients_left > p{
   position: absolute;
   top: 40%;
   left: 5%;
   width: 80%;
 }
 
-.clients_left{
+.clients_right{
   background-color: rgb(241, 241, 241);
   width: 25%;
   height: 225px;
@@ -350,23 +384,23 @@ header ul li{
   right: 20%;
 }
 
-.span_left{
+.span_right{
   height: 75px;
   width: 75px;
   border-radius: 50%;
   position: absolute;
   top: 30%;
-  right: 40%;
+  left: 56%;
   background-color: rgb(214, 214, 67);
   display: inline-block;
 }
 
-.clients_left > h4{
+.clients_right > h4{
   position: absolute;
   top: 20%;
   left: 5%;
 }
-.clients_left > p{
+.clients_right > p{
   position: absolute;
   top: 40%;
   left: 5%;
@@ -389,6 +423,58 @@ header ul li{
   top: 80%;
 }
 
+@media screen and (max-width: 1200px){
+  .clients_right{
+    background-color: rgb(241, 241, 241);
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 35%;
+    right: 20%;
+  }
+  .clients_left{
+    background-color: rgb(241, 241, 241);
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 35%;
+    right: 20%;
+  }
+
+  .from_great_our_clients ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 87%;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .clients_left > h4{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+  }
+  .clients_right > h4{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+  }
+  .clients_right > p{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 80%;
+  }
+  .clients_left > p{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 80%;
+  }
+}
 /*---END_FROM_GREAT_OUR_CLIENTS---*/
 /*---LATEST_NEWS---*/
 
@@ -406,12 +492,25 @@ header ul li{
 .latest_news .latest_news_images{
   justify-content: center;
   margin-top: 50px;
+  padding: 0;
 }
 
 .latest_news_images_img{
   margin-right: 75px;
   width: 300px;
   height: 300px;
+}
+
+.last{
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1100px){
+  .latest_news_images_img{
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+  }
 }
 /*---END_LATEST_NEWS---*/
 
@@ -424,7 +523,7 @@ footer ul{
   display: grid;
   list-style-type: none;
   justify-content: center;
-  grid-template-columns: 50px 400px 400px 400px 400px 50px 50px 50px 50px;
+  grid-template-columns: 50px 300px 300px 300px 300px 50px 50px 50px 50px;
   margin-bottom: 40px;
 }
 
@@ -440,4 +539,14 @@ footer ul li{
 .footer_info{
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+@media screen and (max-width: 1570px){
+  footer ul{
+    display: grid;
+    list-style-type: none;
+    justify-content: center;
+    grid-template-columns: 50px 150px 150px 150px 150px 50px 50px 50px 50px;
+    margin-bottom: 40px;
+  }
 }
