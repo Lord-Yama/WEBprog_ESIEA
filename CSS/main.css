@@ -232,7 +232,9 @@ header ul li{
 @media screen and (max-width: 700px){
   .first_description_container{
     display: grid;
-    justify-content: center;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 100px;
     column-gap: 25px;
     row-gap: 5px;
@@ -242,16 +244,18 @@ header ul li{
 
   .five{
     height: 100%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     grid-column-start: 2;
     grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
   }
 
   .first_description_container span{
     opacity: 0;
+    height: 0;
   }
 }
 /*---END_FIRST_DESCRITPION---*/
@@ -625,7 +629,7 @@ header ul li{
     width: 70%;
     height: 200px;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 15%;
   }
   
@@ -634,7 +638,7 @@ header ul li{
     width: 75px;
     border-radius: 50%;
     position: absolute;
-    top: 56%;
+    top: 46%;
     left: 17%;
     background-color: rgb(214, 214, 67);
     display: inline-block;
@@ -650,6 +654,18 @@ header ul li{
     top: 20%;
     left: 5%;
     width: 80%;
+  }
+
+  .from_great_our_clients ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: 15%;
+    top: 80%;
+  }
+
+  .from_great_our_clients ul li{
+    margin-right: 10px;
   }
 }
 /*---END_FROM_GREAT_OUR_CLIENTS---*/
