@@ -179,6 +179,16 @@ header ul li{
   100% {opacity: 0}
 }
 
+@media screen and (max-width: 600px){
+  .img{
+    height: 250px;
+    width: 80%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 /*---SLIDER_END---*/
 /*---FIRST_DESCRITPION---*/
 .first_description_container{
@@ -309,6 +319,51 @@ header ul li{
   .first_description_container span{
     opacity: 0;
     height: 0;
+  }
+}
+@media screen and (max-width: 400px){
+  .first_description_container{
+    display: grid;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    row-gap: 5px;
+    grid-template-columns: 200px;
+    grid-template-rows:25px 90px 250px 200px 70px;
+  }
+
+  .three{
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+    grid-row-start: 4;
+    grid-row-end: 4;
+  }
+  
+  .four{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+  }
+
+  .five{
+    height:100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+
+  .first_description_container span{
+    opacity: 0;
+    height: 0;
+    grid-column-start: 1;
+    grid-column-end: 1;
   }
 }
 /*---END_FIRST_DESCRITPION---*/
@@ -497,6 +552,15 @@ header ul li{
     grid-template-columns: 150px 75px 75px 75px;
     grid-template-rows: 70px;
     padding: 0;
+  }
+
+  .four_images_container_images .four_images_images{
+    width: 80%;
+  }
+
+  .four_images_list{
+    grid-template-columns: 125px 60px 60px 60px;
+    grid-template-rows: 70px;
   }
 }
 /*---END_FOUR_IMAGES_DESCRITPION---*/
@@ -765,6 +829,18 @@ header ul li{
     left: 30%;
     top: 75%;
   }
+
+  .clients_left > h4{
+    position: absolute;
+    top: 2%;
+    left: 35%;
+  }
+
+  .clients_right > h4{
+    position: absolute;
+    top: 2%;
+    left: 35%;
+  }
 }
 /*---END_FROM_GREAT_OUR_CLIENTS---*/
 /*---LATEST_NEWS---*/
@@ -810,6 +886,18 @@ header ul li{
     list-style-type: none;
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .latest_news_images_img{
+    margin: 0;
+  }
+
+  .latest_news > ul{
+    padding: 0;
+    display: block;
+    text-align: center;
   }
 }
 /*---END_LATEST_NEWS---*/
