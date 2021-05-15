@@ -722,6 +722,15 @@ header ul li{
   }
 }
 
+@media screen and (max-width: 600px){
+  .from_great_our_clients h3{
+    font-size: 30px;
+    position: absolute;
+    top: 2%;
+    left: 20%;
+  }
+}
+
 @media screen and (max-width: 450px){
   .from_great_our_clients h3{
     font-size: 20px;
@@ -732,12 +741,10 @@ header ul li{
   
   .from_great_our_clients ul{
     list-style: none;
-    display: flex;
-    width: 250px;
-    justify-content: space-evenly;
-    align-items: center;
-    position: relative;
-    top: 80%;
+    display: block;
+    line-height: 35px;
+    left: 30%;
+    top: 75%;
   }
 }
 /*---END_FROM_GREAT_OUR_CLIENTS---*/
