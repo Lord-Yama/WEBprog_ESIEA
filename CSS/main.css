@@ -410,6 +410,10 @@ header ul li{
   color: rgb(158, 158, 158);
 }
 
+.four_images_one{
+  font-size: 30px;
+}
+
 @media screen and (max-width: 1650px){
   .four_images{
     display: grid;
@@ -478,6 +482,21 @@ header ul li{
   .four_images_five{
     grid-column: 4;
     grid-row: 1;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .four_images_one{
+    font-size: 20px;
+  }
+
+  .four_images_list{
+    list-style-type: none;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 150px 75px 75px 75px;
+    grid-template-rows: 70px;
+    padding: 0;
   }
 }
 /*---END_FOUR_IMAGES_DESCRITPION---*/
