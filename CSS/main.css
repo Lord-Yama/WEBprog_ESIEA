@@ -687,7 +687,7 @@ header ul li{
   }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 850px){
   .clients_left > h4{
     position: absolute;
     top: 10%;
@@ -812,6 +812,14 @@ header ul li{
     top: 2%;
     left: 20%;
   }
+
+  .from_great_our_clients ul{
+    list-style: none;
+    display: block;
+    line-height: 35px;
+    left: 35%;
+    top: 75%;
+  }
 }
 
 @media screen and (max-width: 450px){
@@ -820,14 +828,6 @@ header ul li{
     position: absolute;
     top: 5%;
     left: 25%;
-  }
-  
-  .from_great_our_clients ul{
-    list-style: none;
-    display: block;
-    line-height: 35px;
-    left: 30%;
-    top: 75%;
   }
 
   .clients_left > h4{
